@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Diseñador Freelancer </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/estilo.css" as="stylesheet"> <!--- PRECARGAR CSS (opcional)-->
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>     <!--ENCABEZADO-->
+        <h1 class="titulo"> Carlo Bettancourt <span> Freelancer </span> </h1>
+    </header>
+
+    <div class="nav-bg">  <!-- NAVEGADOR-->
+        <nav class="navegador-principal contenedor">
+            <a href="#"> Inicio </a>
+            <a href="#"> Sobre mi </a>
+            <a href="#"> Proyectos </a>
+            <a href="#"> Contacto </a>
+        </nav>
+    </div>
+
+    <section class="hero"> <!--HERO-->
+        <div class="contenido-hero">
+            <h2> Diseño y Desarrollo Web <span> Freelancer </span> </h2>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+            <p> Santiago, Chile </p>
+            <a class="boton" href="#"> Contactar </a>
+
+        </div>
+    </section>
+
+    <main class="contenedor">
+        <h2> Mis Servicios </h2>
+
+        <div class="servicios"> <!-- SERVICIOS -->
+            <section class="servicio"> 
+                <h3> Diseño Web </h3>
+                    <div class="iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 21a9 9 0 1 1 0 -18a9 8 0 0 1 9 8a4.5 4 0 0 1 -4.5 4h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
+                            <circle cx="7.5" cy="10.5" r=".5" fill="currentColor" />
+                            <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
+                            <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
+                        </svg>
+                    </div>
+                <p> Pellentesque odio ex, bibendum </p>
+            </section>
+
+            <section class="servicio"> 
+                <h3> Responsive Design </h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="3" y1="19" x2="21" y2="19" />
+                        <rect x="5" y="6" width="14" height="10" rx="1" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="13" y="8" width="8" height="12" rx="1" />
+                        <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
+                        <line x1="16" y1="9" x2="18" y2="9" />
+                    </svg>
+                </div>
+                <p> Pellentesque odio ex, bibendum </p>
+            </section>
+
+            <section class="servicio">
+                <h3> E-Commerce </h3>
+                <div class="iconos"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="3" y="5" width="18" height="14" rx="3" />
+                        <line x1="3" y1="10" x2="21" y2="10" />
+                        <line x1="7" y1="15" x2="7.01" y2="15" />
+                        <line x1="11" y1="15" x2="13" y2="15" />
+                    </svg>
+                </div>
+                <p> Pellentesque odio ex, bibendum </p>
+            </section>
+        </div>
+
+
+        <section> <!-- FORMULARIO -->
+
+            <h2> Contacto </h2>
+
+            <form class="formulario"> 
+                <fieldset> 
+                    <legend> Contactame llenando todos los campos </legend>
+
+                    <div>
+                        <div class="campo">
+                            <label> Nombre </label>
+                            <input class="input-text" type="text" placeholder="Tu nombre" >
+                        </div>
+
+                        <div class="campo">
+                            <label> Telefono </label>
+                            <input class="input-text" type="tel" placeholder="Tu telefono" >
+                        </div>
+
+                        <div class="campo">
+                            <label> Email </label>
+                            <input class="input-text" type="email" placeholder="Tu email">
+                        </div>
+
+                        <div class="campo">
+                            <label> Deja tu mensaje </label>
+                            <textarea class="input-text"> </textarea>
+                        </div>
+                    </div>
+
+                    <div class="bform flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar"> <!-- BOTON FORMULARIO-->
+                    </div>
+
+                </fieldset>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer> <!-- FOOTER -->
+        <h3> Derechos reservados, Carlo Bettancourt Freelancer </h3>
+    </footer>
+</body>
+</html>
+
+
